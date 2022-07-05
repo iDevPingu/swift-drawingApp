@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		784B08782874334A00DA3AD5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784B08772874334A00DA3AD5 /* Color.swift */; };
+		789B19142873CF890089A620 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789B19132873CF890089A620 /* Shape.swift */; };
 		83A846E128725EFA00C777B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A846E028725EFA00C777B1 /* AppDelegate.swift */; };
 		83A846E328725EFA00C777B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A846E228725EFA00C777B1 /* SceneDelegate.swift */; };
 		83A846E528725EFA00C777B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A846E428725EFA00C777B1 /* ViewController.swift */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		784B08772874334A00DA3AD5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		789B19132873CF890089A620 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		83A846DD28725EFA00C777B1 /* swift-drawingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-drawingapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A846E028725EFA00C777B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83A846E228725EFA00C777B1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +80,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		784B08792874339E00DA3AD5 /* Shape */ = {
+			isa = PBXGroup;
+			children = (
+				789B19132873CF890089A620 /* Shape.swift */,
+			);
+			path = Shape;
+			sourceTree = "<group>";
+		};
+		789B19112873C4320089A620 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				789B19152873CFCE0089A620 /* Drawing */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		789B19152873CFCE0089A620 /* Drawing */ = {
+			isa = PBXGroup;
+			children = (
+				784B08792874339E00DA3AD5 /* Shape */,
+				784B08772874334A00DA3AD5 /* Color.swift */,
+			);
+			path = Drawing;
+			sourceTree = "<group>";
+		};
 		83A846D428725EF900C777B1 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +128,7 @@
 		83A846DF28725EFA00C777B1 /* swift-drawingapp */ = {
 			isa = PBXGroup;
 			children = (
+				789B19112873C4320089A620 /* Models */,
 				83A846E028725EFA00C777B1 /* AppDelegate.swift */,
 				83A846E228725EFA00C777B1 /* SceneDelegate.swift */,
 				83A846E428725EFA00C777B1 /* ViewController.swift */,
@@ -259,8 +289,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				83A846E528725EFA00C777B1 /* ViewController.swift in Sources */,
+				784B08782874334A00DA3AD5 /* Color.swift in Sources */,
 				83A846E128725EFA00C777B1 /* AppDelegate.swift in Sources */,
 				83A846E328725EFA00C777B1 /* SceneDelegate.swift in Sources */,
+				789B19142873CF890089A620 /* Shape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
