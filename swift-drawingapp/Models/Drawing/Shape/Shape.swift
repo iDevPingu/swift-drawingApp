@@ -13,4 +13,9 @@ protocol Shape {
     var color: UIColor { get }
     var frame: CGRect { get set }
     var route: [CGPoint] { get set }
+    var isSelected: Bool { get set }
+}
+
+extension Shape {
+    var highlighedColor: UIColor { .systemRed }
 }

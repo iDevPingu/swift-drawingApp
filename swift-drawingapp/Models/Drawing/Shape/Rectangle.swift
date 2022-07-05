@@ -13,8 +13,6 @@ final class Rectangle: Shape {
     let color: UIColor
     var frame: CGRect
     var route: [CGPoint] = []
-    
-    let highlighedColor: UIColor = .systemRed
     var isSelected: Bool = false
     
     init(color: UIColor, frame: CGRect) {
