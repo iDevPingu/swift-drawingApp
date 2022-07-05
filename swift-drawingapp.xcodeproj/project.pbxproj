@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		784B08782874334A00DA3AD5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784B08772874334A00DA3AD5 /* Color.swift */; };
+		784B087B287434C200DA3AD5 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784B087A287434C200DA3AD5 /* Rectangle.swift */; };
 		789B19142873CF890089A620 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789B19132873CF890089A620 /* Shape.swift */; };
 		83A846E128725EFA00C777B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A846E028725EFA00C777B1 /* AppDelegate.swift */; };
 		83A846E328725EFA00C777B1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A846E228725EFA00C777B1 /* SceneDelegate.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		784B08772874334A00DA3AD5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		784B087A287434C200DA3AD5 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 		789B19132873CF890089A620 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		83A846DD28725EFA00C777B1 /* swift-drawingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-drawingapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A846E028725EFA00C777B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				789B19132873CF890089A620 /* Shape.swift */,
+				784B087A287434C200DA3AD5 /* Rectangle.swift */,
 			);
 			path = Shape;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				83A846E528725EFA00C777B1 /* ViewController.swift in Sources */,
 				784B08782874334A00DA3AD5 /* Color.swift in Sources */,
 				83A846E128725EFA00C777B1 /* AppDelegate.swift in Sources */,
+				784B087B287434C200DA3AD5 /* Rectangle.swift in Sources */,
 				83A846E328725EFA00C777B1 /* SceneDelegate.swift in Sources */,
 				789B19142873CF890089A620 /* Shape.swift in Sources */,
 			);
