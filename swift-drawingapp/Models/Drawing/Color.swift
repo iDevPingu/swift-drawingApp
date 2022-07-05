@@ -8,12 +8,12 @@
 import Foundation
 import UIKit
 
-protocol RandomValueGenerator {
+protocol RandomValueFactory {
     associatedtype RandomValue
     static func random() -> RandomValue
 }
 
-final class RandomColorGenerator: RandomValueGenerator {
+final class RandomColorFactory: RandomValueFactory {
     typealias RandomValue = UIColor
     
     static func random() -> UIColor {
