@@ -17,10 +17,10 @@ final class RandomColorFactory: RandomValueFactory {
     typealias RandomValue = UIColor
     
     static func random() -> UIColor {
-        let randomRed = CGFloat((1...255).randomElement() ?? 255)
-        let randomGreen = CGFloat((1...255).randomElement() ?? 255)
-        let randomBlue = CGFloat((1...255).randomElement() ?? 255)
+        let systemColors: [UIColor] = [
+            .magenta, .darkGray, .cyan, .brown, .yellow, .blue, .systemBlue, .black, .darkText, .green, .orange, .purple, .systemTeal, .systemPink, .systemCyan, .systemGray, .systemMint
+        ]
         
-        return UIColor(red: randomRed, green: randomGreen, blue: randomBlue, alpha: 1)
+        return systemColors.randomElement() ?? .magenta
     }
 }
