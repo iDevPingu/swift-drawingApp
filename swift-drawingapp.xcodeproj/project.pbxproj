@@ -11,6 +11,9 @@
 		780F6FDE287C1ECC00A5ACF8 /* RandomColorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780F6FDD287C1ECC00A5ACF8 /* RandomColorFactory.swift */; };
 		780F6FE0287C1EFA00A5ACF8 /* RandomRectangleOriginFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780F6FDF287C1EFA00A5ACF8 /* RandomRectangleOriginFactory.swift */; };
 		780F6FE2287C22A400A5ACF8 /* RandomRectangleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780F6FE1287C22A400A5ACF8 /* RandomRectangleFactory.swift */; };
+		780F6FE6287C240600A5ACF8 /* RandomColorFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780F6FE5287C240600A5ACF8 /* RandomColorFactoryTest.swift */; };
+		780F6FE8287C258500A5ACF8 /* RandomRectangleOriginFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780F6FE7287C258500A5ACF8 /* RandomRectangleOriginFactoryTest.swift */; };
+		780F6FEA287C27C900A5ACF8 /* RandomRectangleFactoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780F6FE9287C27C900A5ACF8 /* RandomRectangleFactoryTest.swift */; };
 		784B087B287434C200DA3AD5 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784B087A287434C200DA3AD5 /* Rectangle.swift */; };
 		789B19142873CF890089A620 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789B19132873CF890089A620 /* Shape.swift */; };
 		83A846E128725EFA00C777B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A846E028725EFA00C777B1 /* AppDelegate.swift */; };
@@ -46,6 +49,9 @@
 		780F6FDD287C1ECC00A5ACF8 /* RandomColorFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorFactory.swift; sourceTree = "<group>"; };
 		780F6FDF287C1EFA00A5ACF8 /* RandomRectangleOriginFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomRectangleOriginFactory.swift; sourceTree = "<group>"; };
 		780F6FE1287C22A400A5ACF8 /* RandomRectangleFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomRectangleFactory.swift; sourceTree = "<group>"; };
+		780F6FE5287C240600A5ACF8 /* RandomColorFactoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorFactoryTest.swift; sourceTree = "<group>"; };
+		780F6FE7287C258500A5ACF8 /* RandomRectangleOriginFactoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomRectangleOriginFactoryTest.swift; sourceTree = "<group>"; };
+		780F6FE9287C27C900A5ACF8 /* RandomRectangleFactoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomRectangleFactoryTest.swift; sourceTree = "<group>"; };
 		784B087A287434C200DA3AD5 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 		789B19132873CF890089A620 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		83A846DD28725EFA00C777B1 /* swift-drawingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-drawingapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +111,16 @@
 				780F6FE1287C22A400A5ACF8 /* RandomRectangleFactory.swift */,
 			);
 			path = RandomValueFactory;
+			sourceTree = "<group>";
+		};
+		780F6FE4287C23E100A5ACF8 /* RandomValueFactoryTest */ = {
+			isa = PBXGroup;
+			children = (
+				780F6FE5287C240600A5ACF8 /* RandomColorFactoryTest.swift */,
+				780F6FE7287C258500A5ACF8 /* RandomRectangleOriginFactoryTest.swift */,
+				780F6FE9287C27C900A5ACF8 /* RandomRectangleFactoryTest.swift */,
+			);
+			path = RandomValueFactoryTest;
 			sourceTree = "<group>";
 		};
 		784B08792874339E00DA3AD5 /* Shape */ = {
@@ -171,6 +187,7 @@
 		83A846F628725EFF00C777B1 /* swift-drawingappTests */ = {
 			isa = PBXGroup;
 			children = (
+				780F6FE4287C23E100A5ACF8 /* RandomValueFactoryTest */,
 				83A846F728725EFF00C777B1 /* swift_drawingappTests.swift */,
 			);
 			path = "swift-drawingappTests";
@@ -333,6 +350,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				83A846F828725EFF00C777B1 /* swift_drawingappTests.swift in Sources */,
+				780F6FE6287C240600A5ACF8 /* RandomColorFactoryTest.swift in Sources */,
+				780F6FEA287C27C900A5ACF8 /* RandomRectangleFactoryTest.swift in Sources */,
+				780F6FE8287C258500A5ACF8 /* RandomRectangleOriginFactoryTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
