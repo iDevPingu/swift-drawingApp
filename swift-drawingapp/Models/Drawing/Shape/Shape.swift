@@ -14,6 +14,8 @@ protocol Shape {
     var frame: CGRect { get set }
     var route: [CGPoint] { get set }
     var isSelected: Bool { get set }
+    
+    func getViewForDraw(at: UIView) -> UIView
 }
 
 extension Shape {

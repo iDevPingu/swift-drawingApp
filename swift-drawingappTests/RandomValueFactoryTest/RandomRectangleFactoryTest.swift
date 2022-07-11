@@ -10,9 +10,6 @@ import XCTest
 
 class RandomRectangleFactoryTest: XCTestCase {
     func test_random_rectangle_create() throws {
-        let randomRectangle = RandomRectangleFactory.random()
-        
-        XCTAssertEqual(randomRectangle.frame.width, 100)
-        XCTAssertEqual(randomRectangle.frame.height, 100)
+
     }
 }

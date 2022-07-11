@@ -5,15 +5,12 @@
 //  Created by pingu.hwang on 2022/07/11.
 //
 
-import Foundation
 import UIKit
 
-struct RandomRectangleFactory: RandomValueFactory {
-    typealias RandomValue = Rectangle
-    
-    static func random() -> Rectangle {
+struct RandomRectangleFactory: RandomShapeFactory {
+    static func randomShape(at: UIView) -> Shape {
         let randomColor = RandomColorFactory.random()
-        let randomOrigin = RandomRectangleOriginFactory.random()
+        let randomOrigin = RandomRectangleOriginFactory.randomPoint(at: at)
         let width: CGFloat = 100
         let height: CGFloat = 100
         

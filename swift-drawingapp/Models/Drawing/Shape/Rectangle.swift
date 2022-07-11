@@ -19,4 +19,8 @@ final class Rectangle: Shape {
         self.color = color
         self.frame = frame
     }
+    
+    func getViewForDraw(at: UIView) -> UIView {
+        return UIView()
+    }
 }
