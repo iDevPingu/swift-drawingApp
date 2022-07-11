@@ -20,6 +20,7 @@
 		780F6FF5287C6EFD00A5ACF8 /* ShapeDrawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780F6FF4287C6EFD00A5ACF8 /* ShapeDrawer.swift */; };
 		780F6FF8287C734B00A5ACF8 /* RandomShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780F6FF7287C734B00A5ACF8 /* RandomShapeFactory.swift */; };
 		780F6FFB287C77A000A5ACF8 /* RandomPointFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780F6FFA287C77A000A5ACF8 /* RandomPointFactory.swift */; };
+		780F6FFE287C7DD100A5ACF8 /* DrawCommander.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780F6FFD287C7DD100A5ACF8 /* DrawCommander.swift */; };
 		784B087B287434C200DA3AD5 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784B087A287434C200DA3AD5 /* Rectangle.swift */; };
 		789B19142873CF890089A620 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789B19132873CF890089A620 /* Shape.swift */; };
 		83A846E128725EFA00C777B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A846E028725EFA00C777B1 /* AppDelegate.swift */; };
@@ -64,6 +65,7 @@
 		780F6FF4287C6EFD00A5ACF8 /* ShapeDrawer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeDrawer.swift; sourceTree = "<group>"; };
 		780F6FF7287C734B00A5ACF8 /* RandomShapeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomShapeFactory.swift; sourceTree = "<group>"; };
 		780F6FFA287C77A000A5ACF8 /* RandomPointFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomPointFactory.swift; sourceTree = "<group>"; };
+		780F6FFD287C7DD100A5ACF8 /* DrawCommander.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawCommander.swift; sourceTree = "<group>"; };
 		784B087A287434C200DA3AD5 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
 		789B19132873CF890089A620 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
 		83A846DD28725EFA00C777B1 /* swift-drawingapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-drawingapp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,6 +149,7 @@
 		780F6FEE287C6E3500A5ACF8 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				780F6FFC287C7DAA00A5ACF8 /* DrawCommander */,
 				780F6FF3287C6E7F00A5ACF8 /* Sketchable */,
 			);
 			path = View;
@@ -177,6 +180,14 @@
 				780F6FDF287C1EFA00A5ACF8 /* RandomRectangleOriginFactory.swift */,
 			);
 			path = RandomPointFactory;
+			sourceTree = "<group>";
+		};
+		780F6FFC287C7DAA00A5ACF8 /* DrawCommander */ = {
+			isa = PBXGroup;
+			children = (
+				780F6FFD287C7DD100A5ACF8 /* DrawCommander.swift */,
+			);
+			path = DrawCommander;
 			sourceTree = "<group>";
 		};
 		784B08792874339E00DA3AD5 /* Shape */ = {
@@ -401,6 +412,7 @@
 				780F6FDE287C1ECC00A5ACF8 /* RandomColorFactory.swift in Sources */,
 				83A846E128725EFA00C777B1 /* AppDelegate.swift in Sources */,
 				780F6FF0287C6E3B00A5ACF8 /* SketchView.swift in Sources */,
+				780F6FFE287C7DD100A5ACF8 /* DrawCommander.swift in Sources */,
 				784B087B287434C200DA3AD5 /* Rectangle.swift in Sources */,
 				83A846E328725EFA00C777B1 /* SceneDelegate.swift in Sources */,
 				780F6FE0287C1EFA00A5ACF8 /* RandomRectangleOriginFactory.swift in Sources */,

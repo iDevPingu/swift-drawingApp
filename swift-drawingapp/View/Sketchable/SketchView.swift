@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-final class SketchView: UIView, Sketchable {
+final class SketchView: UIView, Sketchable, DrawCommander {
     var drawer: Drawer
     var shapes: [Shape] = []
     
@@ -19,5 +19,10 @@ final class SketchView: UIView, Sketchable {
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    func drawRectangle() {
+        let rectangle = RandomRectangleFactory.randomShape(at: self)
+        drawer.draw(at: self, with: rectangle)
     }
 }

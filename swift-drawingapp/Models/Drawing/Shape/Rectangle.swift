@@ -21,6 +21,8 @@ final class Rectangle: Shape {
     }
     
     func getViewForDraw(at: UIView) -> UIView {
-        return UIView()
+        let rectangleView = UIView(frame: frame)
+        rectangleView.backgroundColor = color
+        return rectangleView
     }
 }
